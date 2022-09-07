@@ -17,6 +17,19 @@ https://brew.sh/index_ja に記載のスクリプトを流す
 2022/9/7現在
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+インストールすると以下環境変数の設定を要求されるので、端末に合わせて設定
+
+```
+$ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> Users/masahiro.morita/.zprofile
+$ eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+# 2. Ansibleのインストール
+Ansibleはインフラの構成管理とOSやソフトウェアなどの設定作業を自動化するツールです。yamlに各resourceの設定を記述して実行することで、その構成通りに構築を行うことができます。
+```
+$ brew install ansible
+```
+Ansibleの概要はhttps://tech.prog-8.com/entry/2021/12/19/setup-mac-ansible を参照
 
 ### memo
 ・カーソル速度を上げる => コード書けそう

@@ -23,6 +23,10 @@ https://brew.sh/index_ja に記載のスクリプトを流す
 $ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> Users/masahiro.morita/.zprofile
 $ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+brew caskもインストールし、GUIパッケージもインストール可能にする
+```
+$ brew install cask
+```
 
 # 2. Ansibleのインストール
 Ansibleはインフラの構成管理とOSやソフトウェアなどの設定作業を自動化するツールです。yamlに各resourceの設定を記述して実行することで、その構成通りに構築を行うことができます。

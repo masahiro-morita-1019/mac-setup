@@ -1,0 +1,8 @@
+## install application via App Store and system settings
+## brew install mas
+## Check app ids　by command "mas search xxx"
+#- name: install applications from app store
+#  community.general.mas:
+#    upgrade_all: yes
+#    id:
+#      - 803453959  # Slack

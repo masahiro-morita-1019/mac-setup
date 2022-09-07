@@ -1,0 +1,15 @@
+# ホストや実行したいroleを記述
+---
+- name: set up
+  hosts: 127.0.0.1
+  connection: local
+  gather_facts: no
+  become: no
+
+  roles:
+    - geerlingguy.dotfiles
+    - zsh
+    - homebrew
+    - homebrew_cask
+    - mac_app_store
+    - mac_os

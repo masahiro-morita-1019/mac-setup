@@ -1,0 +1,27 @@
+- name: update homebrew
+    community.general.homebrew:
+    update_homebrew: true
+
+- name: install homebrew packages
+    community.general.homebrew:
+    name:
+      - ansible
+      - anyenv
+      - bat
+      - exa
+      - fd
+      - fzf
+      - gh
+      - ghq
+      - git
+      - jq
+      - lsd
+      - mas
+      - node
+      - procs
+      - ripgrep
+      - tig
+      - tree
+      - wget
+      - yarn
+      - zsh

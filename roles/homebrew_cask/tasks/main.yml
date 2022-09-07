@@ -1,0 +1,19 @@
+# We can search packages by "brew search or website:https://formulae.brew.sh/cask/"
+- name: install homebrew cask packages
+  community.general.homebrew_cask:
+    name:
+      - alfred
+      - asana
+      - appcleaner
+      - dbeaver-community
+      - docker
+      - evernote
+      - google-chrome
+      - google-japanese-ime
+      - iterm2
+      - postman
+      - visual-studio-code
+      - intellij-idea
+      - 1password
+      - slack
+      - zoom

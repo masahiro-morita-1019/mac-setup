@@ -3,7 +3,6 @@
   community.general.homebrew_cask:
     name:
       - alfred
-      - asana
       - appcleaner
       - dbeaver-community
       - docker
@@ -22,6 +21,5 @@
       - typora
       - cyberduck
       - loom
-      - gyazo
       - pgadmin4
       - microsoft-remote-desktop

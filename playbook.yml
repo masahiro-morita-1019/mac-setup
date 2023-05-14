@@ -7,7 +7,6 @@
   become: no
 
   roles:
-    - geerlingguy.dotfiles
     - zsh
     - homebrew
     - homebrew_cask

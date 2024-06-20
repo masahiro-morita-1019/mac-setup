@@ -33,5 +33,10 @@ $ brew install ansible
 ```
 Ansibleの概要はhttps://tech.prog-8.com/entry/2021/12/19/setup-mac-ansible を参照
 
+・本リポジトリをclone ※passwordはアクセストークンにする必要があり
+その後cloneしたプロジェクトのrootディレクトリで以下実行
+```
+ansible-playbook playbook.yml -K
+```
 ### memo
 ・カーソル速度を上げる => コード書けそう

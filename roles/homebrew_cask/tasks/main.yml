@@ -2,22 +2,23 @@
 - name: install homebrew cask packages
   community.general.homebrew_cask:
     name:
+      - 1password
       - alfred
       - appcleaner
+      - bettertouchtool
+      - clipy
       - dbeaver-community
       - docker
       - google-chrome
+      - loom
       - iterm2
+      - microsoft-remote-desktop
+      - notion
+      - pgadmin4
       - postman
-      - visual-studio-code
-      - 1password
       - slack
-      - zoom
-      - clipy
-      - bettertouchtool
       - spectacle
       - typora
-      - cyberduck
-      - loom
-      - pgadmin4
-      - microsoft-remote-desktop
+      - visual-studio-code
+      - vivaldi
+      - zoom

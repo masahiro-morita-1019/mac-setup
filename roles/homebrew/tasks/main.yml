@@ -17,12 +17,14 @@
       - lsd
       - mas
       - node
+      - nodebrew
       - procs
       - ripgrep
       - tig
       - tree
       - wget
       - yarn
+      - pnpm
       - zsh
       - postgresql
       - python3

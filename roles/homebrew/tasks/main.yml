@@ -8,7 +8,6 @@
       - ansible
       - anyenv
       - bat
-      - exa
       - fd
       - fzf
       - gh

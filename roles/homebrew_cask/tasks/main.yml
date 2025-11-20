@@ -13,15 +13,15 @@
       - docker
       - google-chrome
       - loom
-      - microsoft-edge
       - microsoft-remote-desktop
       - notion
       - obsidian
       - postman
+      - raycast
+      - session-manager-plugin
       - slack
       - spectacle
       - typora
       - visual-studio-code
-      - vivaldi
       - warp
       - zoom

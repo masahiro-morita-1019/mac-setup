@@ -7,27 +7,31 @@
     name:
       - ansible
       - anyenv
+      - awscli
       - bat
       - fd
       - fzf
       - gh
       - ghq
       - git
+      - graphviz
       - jq
       - lsd
       - mas
       - node
-      - nodebrew
+      - nvm
+      - plantuml
+      - pnpm
+      - postgresql
       - procs
+      - python3
       - ripgrep
+      - sst
+      - terraform
       - tig
       - tree
+      - uv
       - wget
       - yarn
-      - pnpm
       - zsh
-      - postgresql
-      - python3
-      - awscli
-      - graphviz
-      - plantuml
+
